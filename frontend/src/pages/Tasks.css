@@ -1,0 +1,160 @@
+.tasks-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    padding: 8px 16px;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #e64545;
+}
+
+.task-form input,
+.task-form select {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 140px;
+    font-size: 14px;
+}
+
+.task-form button {
+    padding: 8px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #45a049;
+}
+
+.controls {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls input {
+    width: 60%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.controls button {
+    padding: 8px 14px;
+    background-color: #0099cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #007eaa;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    background-color: #d0ffd0;
+}
+
+.task-list button {
+    margin-left: 8px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.task-list button:nth-child(1) {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.task-list button:nth-child(1):hover {
+    background-color: #45a049;
+}
+
+.task-list button:nth-child(2) {
+    background-color: #ff5757;
+    color: #fff;
+}
+
+.task-list button:nth-child(2):hover {
+    background-color: #e64545;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
